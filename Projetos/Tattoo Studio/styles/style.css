@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{      
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    padding:2% 2.5%; ;        
+}
+.fundo_inicial{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.nome{
+    font-family: 'Cinzel Decorative';
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    background-image: linear-gradient(to right, #CAAC7F 0%, #B67A4B 20%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 1%;
+}
+.consulta{    
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: Regular;
+    background-image: linear-gradient(to right, #CAAC7F 0%, #B67A4B 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.btn_consulta{
+    padding: 1%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #B67A4B;
+    border-radius: 5px;   
+    margin-left: auto; 
+}
+.menu{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1%;
+    color: #fafcfc;
+    width: 8%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
