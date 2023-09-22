@@ -3,12 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{      
-    background-image: url("fundo.jpg");
+.home1{
+    width: 100%;
+    height: 100vh;      
+    background-image: url("fundo1.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vmax;    
+    padding:2% 2.5%;
+            
+}
+.initial_header{
     display: flex;
-    padding:2% 2.5%; ;        
 }
 .fundo_inicial{
     position: absolute;
@@ -24,7 +29,7 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    margin-top: 1%;
+    
 }
 .consulta{    
     font-family: 'Manrope';
@@ -35,15 +40,11 @@ body{
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
-}
-.btn_consulta{
-    padding: 1%;
     width: 15%;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #B67A4B;
-    border-radius: 5px;   
-    margin-left: auto; 
+    border-radius: 5px;
+    border: 1px solid #B67A4B;
+    margin-left: auto;
+    cursor: pointer;
 }
 .menu{
     font-family: 'Manrope';
@@ -56,4 +57,111 @@ body{
     justify-content: space-between;
     text-align: center;
     display: flex;
+    cursor: pointer;
+}
+.title{
+    font-family: 'Cinzel Decorative';
+    font-size: 90px;
+    color: #fafcfc;
+    height: 55vh;
+    width: 60vw;    
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+       
+}
+.chave{
+    background-image: linear-gradient(to right, #CAAC7F 0%, #B67A4B 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.title2{
+    font-weight: 400;
+}    
+.mid_home1{
+    display: flex;
+    justify-content: space-between;
+}
+.espiral_left{
+    height: 40vh;
+    margin-top: 8vh;
+}
+.espiral_right{
+    height: 40vh;
+    margin-top: 8vh;
+}
+.subtitle{
+    margin-bottom: 1.5vh;
+    font-family: 'Cinzel Decorative';
+    font-size: 40px;
+    color: #fafcfc;
+    text-align: center;
+}
+.dimension{
+    font-weight: bold;
+}
+.session_appoint{
+    display: flex;
+    justify-content: center;
+}
+.arrow{
+    width: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.btn_appoint{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    background-image: linear-gradient(70deg, #CAAC7F, #B67A4B);
+    width: 15vw;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #323333;
+    cursor: pointer;
+}
+.txt_menu{
+    cursor: pointer;
+}
+.home2{
+    padding:0 2.5%;
+    background-color: #323333;
+    height: 90vh;
+    width: 100%;
+}
+.header_home2{
+    font-family: 'Cinzel Decorative';
+    font-weight: bold;
+    color: #fafcfc;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+}
+.img_middle2{
+    border: 1px solid #979999;
+    border-radius: 2px;
+    width: 50%;
+    margin-right: 3vw;
+}
+.middle2{
+    display: flex;
+    justify-content: space-between;
+}
+.text_middle2{    
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 500;
+    color: #fafcfc;
+    border-bottom: 1px solid #979999;
+    padding-bottom: 2vh;
+}
+.section_middle2{
+    width: 50%;
+    border-left: 1px solid #979999;
+    padding-left: 3vw;
 }
