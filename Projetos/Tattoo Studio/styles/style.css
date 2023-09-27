@@ -198,6 +198,7 @@ h3{
     display: flex;
     justify-content: space-between;
     margin-bottom: 2vh;
+    padding: 1vh 0;
 }
 .cls_icon{
     width: 28px;
@@ -242,4 +243,80 @@ h3{
     justify-content: space-between;
     padding: 4vh 0;
     border-top: 1px solid #979999;
+}
+.home4{
+    padding:0 2.5%;
+    background-color: #323333;
+    height: 150vh;
+    width: 100%;
+}
+.ls_home4{
+    display: flex;
+    padding: 3vh 0;
+    border-top: 1px solid #979999;
+    border-bottom: 1px solid #979999;
+    list-style-type: none;
+}
+.txt_grad1{
+    font-family: 'Cinzel Decorative';
+    background-image: linear-gradient(to right, #CAAC7F 0%, #B67A4B 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 42px;
+    font-weight: bold;
+}
+.txt_grad2{
+    font-family: 'Cinzel Decorative';
+    background-image: linear-gradient(to right, #CAAC7F 70%, #B67A4B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 42px;
+    font-weight: bold;
+}
+.txt_normal{
+    font-family: 'Manrope';
+    font-size: 23px;
+    font-weight: 400;
+    color: #fafcfc;
+}
+.itemls_home4b2{
+    text-align: end;
+    border-left: 1px solid #979999;
+    width: 25%;
+}
+.itemls_home4b1{
+    text-align: end;
+    border-left: 1px solid #979999;
+    width: 25%;
+    padding-right: 20px;
+}
+.itemls_home4a1{
+    border-right: 1px solid #979999;
+    width: 25%;
+}
+.itemls_home4a2{
+    width: 25%;
+    padding-left: 20px;
+}
+.info_tattoo{
+    width: 50%;
+}
+.img_tattoo{
+    width: 50%;
+    padding-left: 3vw;
+    border-left: 1px solid #979999;
+}
+.photo_home4{
+    width: 100%;
+    border: 1px solid #979999;
+    border-radius: 2px;
+}
+.middle_home4{
+    display: flex;
+}
+.artist_title{
+    display: flex;
+    justify-content: space-between;
 }
