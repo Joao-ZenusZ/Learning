@@ -302,10 +302,11 @@ h3{
 }
 .info_tattoo{
     width: 50%;
+    padding-right: 2vw;
 }
 .img_tattoo{
     width: 50%;
-    padding-left: 3vw;
+    padding-left: 2vw;
     border-left: 1px solid #979999;
 }
 .photo_home4{
@@ -315,8 +316,51 @@ h3{
 }
 .middle_home4{
     display: flex;
+    padding-bottom: 2vw;
+    border-bottom: 1px solid #979999;
 }
 .artist_title{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3vh;
+}
+.name_artist{
+    font-family: 'Manrope';
+    color: #fafcfc;
+    font-size: 28px;
+    font-weight: 500;
+}
+.btn_artist{
+    background-color: #323333;
+    color: #fafcfc;
+    border-top: 1px solid #979999;
+    font-family: 'Manrope';
+    width: 120px;
+}
+.artist_info{
+    height: 60%;
+    border-bottom: 1px solid #979999;
+    border-top: 1px solid #979999;
+}
+.text_info{
+    height: 33%;
+    font-family: 'Manrope';
+    font-size: 23px;
+    font-weight: 400;
+    color: #fafcfc;
+    display: flex;
+    align-items: center;
+}
+.aphostroph{
+    color: #CAAC7F;
+    display: flex;
+}
+.artist_phrase{
+    height: 23%;
+    font-family: 'Manrope';
+    font-size: 23px;
+    font-weight: 400;
+    color: #fafcfc;
+    display: flex;
+    align-items: flex-end;
 }
